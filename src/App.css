@@ -2,35 +2,88 @@
   text-align: center;
 }
 
+@font-face{
+  font-family: "BackIssues";
+  src: url('backissues.woff'), url('backissues.woff2'), url('backissues.ttf');
+}
+
 .Header {
-  font-size: 20px;
+  height:160px;
+  width:100%;
+  position:fixed;
+  background-color: #DA344D;
+  border-bottom: solid black 2px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.title{
+  margin-top: 10px;
+  font-size: 4vw;
+  font-family: 'Bangers', cursive;
+  color: #4062BB;
+  -webkit-text-stroke: 2px #FFC857;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navitem{
+  font-family: 'BackIssues';
+  background-color: #fffafa;
+  font-size: 15px;
+  height: 30px;
+  margin:auto;
+  vertical-align: middle;
+  line-height: 30px;
+  border: solid black 2px;
+}
+
+#stuff{
+  width: 100px;
+}
+
+#morestuff{
+  width: 150px;
+}
+
+#snow{
+  width: 90px;
+}
+
+#itemholder{
+  margin-top: 20px;
+  position: relative;
+  left: 25%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+#cart{
+  background-color: #fffafa;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 100px;
+  top: 30px;
+  border: solid black 2px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#cartbutton{
+  background-color: #fffafa;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 100px;
+  top: 30px;
+  border: solid black 2px;
 }
+
+#featured{
+  width: 200px;
+  height: 60px;
+  border:  black 2px;
+  top: 210px;
+  left: 100px;
+  position: fixed;
+  background-image: url("featured.svg");
+}
+
