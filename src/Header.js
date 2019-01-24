@@ -8,7 +8,7 @@ function Header() {
         	<div className = "title">
 	            Haoran's Handsome Haberdashery!
 	        </div>
-        	<div id = "itemholder">
+        	<div id = "headercon">
 	            <div id = "stuff" className = "navitem">
 	            	Stuff
 	            </div>
