@@ -1,6 +1,10 @@
 .App {
   text-align: center;
-  background-color: #FFFACD;
+  background-color: #FFfafa;
+  height: 100vh;
+  /*background-image: url("https://static.vecteezy.com/system/resources/previews/000/241/304/original/abstract-comic-dotted-background-vector.jpg");
+  background-size: 100%;
+  */
 }
 
 @font-face{
@@ -91,9 +95,11 @@
 
 #itemcontainer{
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 80%;
-  border: black solid 2px;
-  height: 1000px;
+  /*border: black solid 2px;*/
   top: 200px;
   left: 10%;
 
@@ -112,7 +118,7 @@
   height: 40px;
   width: 294.2px;
   font-family: "BackIssues";
-  background-color: #FFC857;
+  background-color: #FFFACD;
   text-align: left; 
   padding-top: 10px;
   vertical-align: middle;
@@ -126,6 +132,8 @@
   height: 247.8px;
   background-color: #DDDDDD;
   top:40px;
+  background-size: contain;
+
 }
 
 .itemprice{

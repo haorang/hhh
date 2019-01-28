@@ -7,6 +7,9 @@ class ItemContainer extends Component {
     return (
       <div id = "itemcontainer">
       	<Item/>
+      	<Item/>
+      	<Item/>
+
       </div>
     );
   }
