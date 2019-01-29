@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  background-color: #FFfafa;
+  height: 100vh;
+  /*background-image: url("https://static.vecteezy.com/system/resources/previews/000/241/304/original/abstract-comic-dotted-background-vector.jpg");
+  background-size: 100%;
+  */
+}
+
+@font-face{
+  font-family: "BackIssues";
+  src: url('backissues.woff'), url('backissues.woff2'), url('backissues.ttf');
+}
+
+.Header {
+  height:160px;
+  width:100%;
+  position:fixed;
+  background-color: #DA344D;
+  border-bottom: solid black 2px;
+  z-index: 200;
+}
+
+.title{
+  margin-top: 10px;
+  font-size: 4vw;
+  font-family: 'Bangers', cursive;
+  color: #4062BB;
+  -webkit-text-stroke: 2px #FFC857;
+
+}
+
+.navitem{
+  font-family: 'BackIssues';
+  background-color: #fffafa;
+  font-size: 15px;
+  height: 30px;
+  margin:auto;
+  vertical-align: middle;
+  line-height: 30px;
+  border: solid black 2px;
+}
+
+#stuff{
+  width: 100px;
+}
+
+#morestuff{
+  width: 150px;
+}
+
+#snow{
+  width: 90px;
+}
+
+#headercon{
+  margin-top: 20px;
+  position: relative;
+  left: 25%;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+#cart{
+  background-color: #fffafa;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 100px;
+  top: 30px;
+  border: solid black 2px;
+  
+}
+
+#cartbutton{
+  background-color: #fffafa;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 100px;
+  top: 30px;
+  border: solid black 2px;
+}
+
+#featured{
+  width: 200px;
+  height: 60px;
+  border:  black 2px;
+  top: 210px;
+  left: 100px;
+  position: relative;
+  background-image: url("featured.svg");
+}
+
+#itemcontainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  /*border: black solid 2px;*/
+  top: 200px;
+  left: 10%;
+
+}
+
+.item{
+  position: relative;
+  border: black solid 2px;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.itemtitle{
+  position: relative;
+  height: 40px;
+  width: 294.2px;
+  font-family: "BackIssues";
+  background-color: #FFFACD;
+  text-align: left; 
+  padding-top: 10px;
+  vertical-align: middle;
+  line-height: 30px;
+  padding-left: 5px;
+  border-bottom: solid black 2px;
+}
+
+.itemimg{
+  width: 299.2px;
+  height: 247.8px;
+  background-color: #DDDDDD;
+  top:40px;
+  background-size: contain;
+
+}
+
+.itemprice{
+  position: absolute;
+  top: 200px;
+  font-family: 'Bangers';
+  font-size: 65px;
+  color: #FFC857;
+  -webkit-text-stroke: 2px black;
+  width: 150px;
+  height: 100px;
+  background-image: url('./bang.svg');
+  vertical-align: middle;
+  line-height: 100px;
+}
